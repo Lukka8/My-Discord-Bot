@@ -38,7 +38,7 @@ client.on('message', async message => {
         return;
     }
 
-    if (message.member.roles.has('494358565549637642')) {
+    if (message.member.roles.has('512983189904687114')) {
         message.delete();
         return;
     }
