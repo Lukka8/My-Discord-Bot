@@ -1,6 +1,5 @@
 {
     "prefix": "!",
-    "token": "",
     "admin_command":"this command is for admins only.",
     "message_delete_error":"the message was unable to delete because of",
     "low_number":"Please provide a number between 2 and 100 for the number of messages to delete",
