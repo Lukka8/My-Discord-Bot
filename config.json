@@ -1,0 +1,10 @@
+{
+    "prefix": "!",
+    "token": "NDQxMTgxMjc2MjE3NTQwNjA4.Dts1AA.tZ7kTqc7clrhRnQXVj5MMHDfzW0",
+    "admin_command":"this command is for admins only.",
+    "message_delete_error":"the message was unable to delete because of",
+    "low_number":"Please provide a number between 2 and 100 for the number of messages to delete",
+    "not_valid_member":"Please mention a valid member of this server",
+    "not_kicked":"I cannot kick this user! Do they have a higher role? Do I have kick permissions?",
+    "MuteId":"512983189904687114"
+}

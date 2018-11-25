@@ -1,0 +1,19 @@
+{
+    "name": "greeter-bot",
+    "version": "1.0.0",
+    "description": "My First Discord Bot",
+    "main": "bot.js",
+    "author": "Your Name",
+    "dependencies": {
+        "discord.js": "^11.4.2",
+        "discord.js-commando": "^0.10.0",
+        "fs": "0.0.1-security",
+        "http": "0.0.0",
+        "quick.db": "^7.0.0-b15",
+        "request": "^2.88.0",
+        "snekfetch": "^4.0.4"
+    },
+    "optionalDependencies": {
+        "bufferutil": "^4.0.0"
+    }
+}
