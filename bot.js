@@ -38,7 +38,7 @@ client.on('message', async message => {
         return;
     }
 
-    if (message.member.roles.has('512983189904687114')) {
+    if (message.member.roles.has(config.MuteId)) {
         message.delete();
         return;
     }
