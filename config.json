@@ -5,5 +5,5 @@
     "low_number":"Please provide a number between 2 and 100 for the number of messages to delete",
     "not_valid_member":"Please mention a valid member of this server",
     "not_kicked":"I cannot kick this user! Do they have a higher role? Do I have kick permissions?",
-    "MuteId":"512983189904687114"
+    "MuteId":"521377837727481857"
 }
