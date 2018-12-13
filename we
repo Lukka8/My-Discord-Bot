@@ -1,0 +1,19 @@
+**What Is DataStore**
+DataStore is a storage that saves saves data.
+Data stores are managed by DataStoreService, so your scripts must get the service before doing much else.
+```
+local DataStoreService = game:GetService("DataStoreService")
+```
+
+Remember DataStoreService can only be accessed by Script.
+
+Once you have made DataStoreService variable you can get DataStore by adding GetDataStore.
+
+GetDataStore requires a key for example here we have "PlayerStats" if we saved players data in this key and then we changed it all data that was saved in this key will be lost unless if we changed it back to "PlayerStats".
+```
+local DataStoreService = game:GetService("DataStoreService")
+local GetDataStore = DataStoreService:GetDataStore("PlayerStats")
+```
+**Setting Data**
+
+To set data we use **SetAsync()** remember because ***SetAsync()*** function is connected to network sometimes it might make error so you should put this function in ***pcall()*** to catch and handle errors.
